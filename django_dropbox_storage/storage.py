@@ -5,7 +5,7 @@ import itertools
 try:
     from cStringIO import StringIO
 except ImportError:
-    from StringIO import StringIO
+    from io import StringIO
 from dropbox import Dropbox
 from dropbox.exceptions import ApiError
 from dropbox.files import FolderMetadata, FileMetadata, DeleteError
