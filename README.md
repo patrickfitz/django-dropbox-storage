@@ -11,7 +11,7 @@
 First things first:
 
 ```
-$ pip install django-dropbox-storage
+$ pip install django-dropbox-storage-fork
 ```
 
 Then open the `settings.py` of your project and include it to your `INSTALLED_APPS`:
